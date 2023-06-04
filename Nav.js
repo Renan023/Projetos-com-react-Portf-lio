@@ -1,12 +1,10 @@
 import './Nav.css';
 
-function Nav(props){
+function Nav(){
     return(
         <>
-            <nav>
-                <div className="container">
-                <p className="navm">{props.nome}</p>
-                </div>           
+            <nav className="container">
+                <p className="navm">Atividade 03 pensar e responder</p>
             </nav>
         </>
     )

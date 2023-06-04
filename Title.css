@@ -1,8 +1,6 @@
-.principal {
+.main {
     text-align: center;
+    text-shadow: 10px 10px 10px white;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-.frase{
-    transition: 40s;
-    text-shadow: 10px 10px 10px white;
-}
