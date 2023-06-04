@@ -7,3 +7,7 @@ Refazendo o projeto anterior, porém usando react
 03/06/2023
 
 Estilização dos input, background, input de texto que aplica o nome do usuário e transcreve. Operações matemáticas adicionadas
+
+04/06/2023
+
+Foi adicionado mais algumas operações matemáticas e organizado os componentes
