@@ -1,10 +1,11 @@
 
 import './App.css';
-import Nav from './Nav';
-import Time from './Time';
-import Title from './Title';
-import Greetings from './Greetings';
-import Input02 from './Input02';
+import Nav from './Components/Nav';
+import Time from './Components/Time';
+import Title from './Components/Title';
+import Greetings from './Components/Greetings';
+import Input02 from './Components/Input02';
+import Input03 from './Components/Input03';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Title title="Operações Aritméticas"/>
       <Greetings/>
       <Input02/>
+      <Input03/>
     </div>
   );
 }
