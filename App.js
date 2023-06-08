@@ -1,23 +1,23 @@
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './Components/Nav';
-import Time from './Components/Time';
-import Title from './Components/Title';
-import Greetings from './Components/Greetings';
-import Input02 from './Components/Input02';
-import Input03 from './Components/Input03';
+import Home from './page/Home';
+import Saude from './page/Saude';
+import Calculator from './page/Calculator';
+import Footer from './Components/Footer';
 
 function App() {
 
   return (
-    <div className="App">
-      <Nav nome="Atividade 03 Pensar e Responder"/>
-      <Time/>
-      <Title title="Operações Aritméticas"/>
-      <Greetings/>
-      <Input02/>
-      <Input03/>
-    </div>
+    <Router>
+      <Nav nome='Portfólio'/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/saude'element={<Saude/>}/>
+        <Route path='/calculator' element={<Calculator/>}/>
+      </Routes>
+      < Footer/>
+    </Router>
   );
 }
 

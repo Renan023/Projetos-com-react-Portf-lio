@@ -2,8 +2,7 @@ import React from 'react'
 import './Greetings.css'
 import Name from './Name';
 
-window.alert('Olá, vamos fazer a atividade 03')//alerta
-
+window.alert('Olá, bem vindo ao meu portfólio')//alerta
 
 function Greetings(){
 

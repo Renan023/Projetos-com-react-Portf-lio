@@ -1,11 +1,23 @@
-import './Nav.css';
+import './Nav.css'
+import {Link} from 'react-router-dom';
 
-function Nav(){
+function Nav(props){
     return(
         <>
             <nav className="container">
-                <p className="navm">Atividade 03 pensar e responder</p>
-            </nav>
+                <h1 className="navm">{props.nome}</h1>
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/calculator">Calculadora</Link>
+                    </li>
+                    <li>
+                        <Link to="/saude">Saúde</Link>
+                    </li>
+                </ul>
+                </nav>
         </>
     )
 }

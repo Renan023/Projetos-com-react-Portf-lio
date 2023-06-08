@@ -1,0 +1,22 @@
+.rodape{
+    width: 88%;
+    border-radius: 10px;
+    padding-left: 150px;
+    background-image: linear-gradient(
+        to bottom right,
+        white,
+        gray,
+        black
+    );
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.inst{
+    color: red;
+}
+
+.linked{
+    color: blue;
+}

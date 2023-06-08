@@ -1,19 +1,22 @@
-.container{
-    border: 1px solid black;
+.container{    
+    width: 88%;
+    border-radius: 10px;
     padding-left: 150px;
-    margin: -75px -70px auto;
-    text-align: left;
+    font-style: italic;
+    color: white;
     background-image: linear-gradient(
         to top right,
             black 30%,
             gray,
             white
     );
-    font-style: italic;
-    color: white;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-shadow: 5px 5px 5px white;
+
 }
 
 .navm {
@@ -21,3 +24,12 @@
     margin-top: 25px;
 }
 
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 10px;
+}
