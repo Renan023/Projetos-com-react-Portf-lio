@@ -11,3 +11,7 @@ Estilização dos input, background, input de texto que aplica o nome do usuári
 04/06/2023
 
 Foi adicionado mais algumas operações matemáticas e organizado os componentes
+
+08/06/2023
+
+Alteração do projeto atividade 03 da faculdade para portfólio, foi incluido páginas usando o react router dom, alterado o background no  fundo para cores em degrade e nav foi modificada o footer incluido e estilizado 
