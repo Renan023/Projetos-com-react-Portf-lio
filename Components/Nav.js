@@ -1,4 +1,4 @@
-import './Nav.css'
+import '../style/Index.css'
 import {Link} from 'react-router-dom';
 
 function Nav(props){

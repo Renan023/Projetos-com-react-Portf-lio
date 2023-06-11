@@ -1,4 +1,4 @@
-import './Input.css'
+import '../style/Index.css'
 import Max from '../Math/Max'
 import Min from '../Math/Min'
 import EquationSec from '../Math/EquationSec'

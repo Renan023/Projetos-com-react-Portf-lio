@@ -1,4 +1,4 @@
-import './Title.css'
+import '../style/Index.css'
 
 function Title (props){
     

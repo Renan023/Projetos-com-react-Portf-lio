@@ -1,4 +1,4 @@
-import './Time.css'
+import '../style/Index.css'
 
 
 function Time(){

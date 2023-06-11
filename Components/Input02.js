@@ -4,8 +4,7 @@ import Multiplication from "../Math/Multiplication"
 import Division from "../Math/Division"
 import Module from "../Math/Module"
 import Potency from '../Math/Potency'
-import './Input.css'
-import './InputF.css'
+import '../style/Index.css'
 
 function Input02(){
 

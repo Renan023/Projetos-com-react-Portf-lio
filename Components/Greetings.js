@@ -1,5 +1,5 @@
 import React from 'react'
-import './Greetings.css'
+import '../style/Index.css'
 import Name from './Name';
 
 window.alert('Olá, bem vindo ao meu portfólio')//alerta

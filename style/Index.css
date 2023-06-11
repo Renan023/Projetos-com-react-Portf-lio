@@ -1,0 +1,143 @@
+ html {
+    background-image: url(/src/image/neon.jpg); /*imagem de fundo*/
+    margin: auto;
+}
+
+.cor{
+    background-image: linear-gradient(
+        to top left,
+        rgb(40, 117, 180),
+        rgb(27, 27, 167),
+        rgb(155, 155, 197),
+        white
+    );
+    margin: -7px;
+    opacity: 85%;
+}
+
+
+
+.container{    
+    width: 88%;
+    border-radius: 10px;
+    padding-left: 150px;
+    font-style: italic;
+    color: white;
+    background-image: linear-gradient(
+        to top right,
+            black 30%,
+            gray,
+            white
+    );
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px white;
+    
+}
+
+.navm {
+    margin-left: -50px;
+    margin-top: 25px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.main {
+    text-align: center;
+    text-shadow: 10px 10px 10px white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.time {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 30px auto auto;
+    text-shadow: 4px 4px 4px white;
+}
+
+.greetings {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 10px 10px 10px white;
+}
+
+.nome{
+
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.inputname {
+    margin-left: auto;
+}
+
+.pratice{
+    text-shadow: 10px 10px 10px white;
+}
+
+input{
+    width: 90px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.numero{
+    width: 80px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.resultado{
+    margin: 20px auto auto;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.rodape{
+    width: 88%;
+    border-radius: 10px;
+    padding-left: 150px;
+    background-image: linear-gradient(
+        to bottom right,
+        white,
+        gray,
+        black
+    );
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+
+}
+
+.inst{
+    color: red;
+}
+
+.linked{
+    color: blue;
+}
+
+.Home{
+    text-align: center;
+    margin: 60px 200px 60px auto;
+    padding: 50px;
+    background: white;
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+

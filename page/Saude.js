@@ -1,3 +1,5 @@
+import '../style/Index.css'
+
 function Saude (){
 
     return(

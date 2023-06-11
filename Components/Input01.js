@@ -1,4 +1,4 @@
-import './Input.css'
+import '../style/Index.css'
 import Multitable from '../Math/Multitable'
 import Fatorial from '../Math/Fatorial'
 

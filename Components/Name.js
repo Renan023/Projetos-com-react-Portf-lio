@@ -1,7 +1,5 @@
 import { useState } from "react";
-import './Name.css'
-
-
+import '../style/Index.css'
 
 function Name(){
     var [nome,setNome] = useState()
