@@ -17,4 +17,5 @@ Foi adicionado mais algumas operações matemáticas e organizado os componentes
 Alteração do projeto atividade 03 da faculdade para portfólio, foi incluido páginas usando o react router dom, alterado o background no  fundo para cores em degrade e nav foi modificada o footer incluido e estilizado 
 
 11/06/2023
+
 Deletado e unificado os estilos dos componentes, colocado uma imagem de fundo com uma camada de opacidade
