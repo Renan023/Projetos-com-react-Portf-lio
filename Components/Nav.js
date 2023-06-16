@@ -14,7 +14,7 @@ function Nav(props){
                         <Link to="/calculator">Calculadora</Link>
                     </li>
                     <li>
-                        <Link to="/saude">Saúde</Link>
+                        <Link to="/exames">Exames</Link>
                     </li>
                 </ul>
                 </nav>
