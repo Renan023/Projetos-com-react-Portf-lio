@@ -19,3 +19,7 @@ Alteração do projeto atividade 03 da faculdade para portfólio, foi incluido p
 11/06/2023
 
 Deletado e unificado os estilos dos componentes, colocado uma imagem de fundo com uma camada de opacidade
+
+15/06/2023
+
+Incluido imagens de fundo na home e exames, na page de exames foram incluidos alguns exames 
