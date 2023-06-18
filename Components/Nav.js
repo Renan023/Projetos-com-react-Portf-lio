@@ -14,7 +14,13 @@ function Nav(props){
                         <Link to="/calculator">Calculadora</Link>
                     </li>
                     <li>
-                        <Link to="/exames">Exames</Link>
+                        <Link to="/exames">Hemograma</Link>
+                    </li>
+                    <li>
+                        <Link to="/Formulário">Formulário</Link>
+                    </li>
+                    <li>
+                        <Link to="/Cat Coffee">Cat Coffee</Link>
                     </li>
                 </ul>
                 </nav>

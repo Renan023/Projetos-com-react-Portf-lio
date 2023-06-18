@@ -8,10 +8,11 @@ function Saude (){
 
     return(
         <div id='exames' className='exames'>
-            <Title title='Exames'/>
+            <Title title='Hemograma'/>
             <Eritrograma/>
             <Sub sub='Leucograma'/>
             <Leucograma/>
+            <Sub sub='Plaquetas'/>
         </div>
     )
 }

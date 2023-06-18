@@ -5,6 +5,8 @@ import Home from './page/Home';
 import Exames from './page/Exames';
 import Calculator from './page/Calculator';
 import Footer from './Components/Footer';
+import Catcf from './page/Catcf';
+import Form from './page/Form';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/exames'element={<Exames/>}/>
         <Route path='/calculator' element={<Calculator/>}/>
+        <Route path='/form' element={<Form/>}/>
+        <Route path='/catcoffee' element={<Catcf/>}/>
       </Routes>
       < Footer/>
     </Router>
