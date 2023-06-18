@@ -23,3 +23,7 @@ Deletado e unificado os estilos dos componentes, colocado uma imagem de fundo co
 15/06/2023
 
 Incluido imagens de fundo na home e exames, na page de exames foram incluidos alguns exames 
+
+18/06/23
+
+Foi íncluidas mais algumas páginas, finalizada uma etapa de exames que mudou o nome para hemograma 
