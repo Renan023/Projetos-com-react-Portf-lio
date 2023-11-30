@@ -6,7 +6,7 @@ function Footer(){
 return(
     <footer className='rodape'>
         <ul>
-            <li><FaGithub/></li>
+            <li className='gith'><FaGithub/></li>
             <li className='linked'><FaLinkedin/></li>
             <li className='inst'><FaInstagram/></li>
         </ul>

@@ -6,10 +6,12 @@ import Bastonete from "./Bastonete"
 import Segmentado from "./Segmentado"
 import Linfocitos from "./Linfocitos"
 import Monocitos from "./Monocitos"
+import Sub from "../Components/Sub"
 
 function Leucograma(){
     return(
         <div>
+            <Sub sub='Leucograma'/>
             <input type='number' id="leucog" className="number" />
             <div>
             <Leucocitos/>

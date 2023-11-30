@@ -5,7 +5,9 @@ function Nav(props){
     return(
         <>
             <nav className="container">
+                <Link to='/'>
                 <h1 className="navm">{props.nome}</h1>
+                </Link>
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
@@ -17,10 +19,10 @@ function Nav(props){
                         <Link to="/exames">Hemograma</Link>
                     </li>
                     <li>
-                        <Link to="/Formulário">Formulário</Link>
+                        <Link to="/form">Formulário</Link>
                     </li>
                     <li>
-                        <Link to="/Cat Coffee">Cat Coffee</Link>
+                        <Link to="/neonwave">NeonWave Coffee</Link>
                     </li>
                 </ul>
                 </nav>

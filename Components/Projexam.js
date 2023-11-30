@@ -1,10 +1,11 @@
 function Projexam (){
     function projexam(){
         let res = document.getElementById('proj')
-        res.innerHTML = `Aqui vai ser apresentado de uma forma genérica alguns tipos de exames clínicos `
+        res.innerHTML = `Aqui vai ser apresentado de uma forma genérica exame como o hemograma, colocando em prática as condicionais
+                        if-else`
     } return(
         <>
-            <input type='Submit' value='Exames' onClick={projexam}/>
+            <input type='Submit' value='Hemograma' onClick={projexam}/>
         </>
     )
 }
