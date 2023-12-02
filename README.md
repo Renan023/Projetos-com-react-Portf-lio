@@ -23,3 +23,6 @@ Foi íncluidas mais algumas páginas, finalizada uma etapa de exames que mudou o
 
 29/11/2023
 Foi inserida uma nova página, no qual está foi estilizada com fontes externas e uso do useState, incluidas algumas imagens e fontes na pasta Font
+
+02/12/2023
+Alterada as fontes das páginas
