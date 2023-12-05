@@ -26,3 +26,6 @@ Foi inserida uma nova página, no qual está foi estilizada com fontes externas 
 
 02/12/2023
 Alterada as fontes das páginas
+
+04/12/2023
+Animação introduzida quando seleciona o genero masculino ou feminino. ALterando a fonte e a cor da letra 
