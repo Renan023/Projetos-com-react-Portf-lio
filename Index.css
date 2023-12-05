@@ -100,7 +100,6 @@ li :hover{
 }
 
 .main {
-    margin-top: -100px;
     text-align: center;
     font-family: 'Ephesis',cursive;
     font-size: 30px;
@@ -195,18 +194,18 @@ input{
 
 .Home{
     font-family: 'BadScript';
-    font-size: 85%;
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
     margin: 60px auto 60px auto;
     padding: 50px;
     width: 1000px;
-    height: 500px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
-    background-image: url(/src/image/casa.jpg);
-    text-shadow: 1px 1px 1px black;
+    background-image: url(/src/image/natureza.jpg);
+    text-shadow: 50px 50px 50px blue;
     opacity: 99%;
-    color: white;
+    color: black;
 }
 
 .exames{
@@ -306,4 +305,32 @@ label{
     color: rgb(148, 60, 160);
     font-style: italic;
 }
+
+.animatedm{
+    font-family: 'NeonBines';
+    color: darkblue;
+    transition: fontFamily 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out
+}
+
+.animatedm:hover{
+    font-family: 'RockSalt-Regular';
+    color: black;
+    text-shadow: 1px 1px 3px white;
+}
+
+.animatedf{
+    font-family: 'NeonBines';
+    color: darkblue;
+    transition: fontFamily 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.animatedf:hover{
+    font-family: 'Ephesis';
+    color: rgba(216, 37, 207, 0.781);
+    font-size: 30px;
+    text-shadow: 1px 1px 3px whitesmoke;
+}
+
 
