@@ -1,6 +1,50 @@
  html {
     background-image: url(/src/image/neon.jpg); /*imagem de fundo*/
-    margin: auto;
+}
+
+@font-face {
+    font-family: 'NeonBines';
+    src: url(/src/Font/NeonBines.ttf) format('truetype');
+}
+
+@font-face {    
+    font-family: 'RockSalt-Regular';
+    src: url(/src/Font/RockSalt-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Fino';
+    src: url(/src/Font/Fino.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SingleDay';
+    src: url(/src/Font/SingleDay-Regular.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'ShadowsIntoLight';
+    src: url(/src/Font/ShadowsIntoLight-Regular.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'Ephesis';
+    src: url(/src/Font/Ephesis-Regular.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url(/src/Font/Caveat-Regular.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url(/src/Font/DancingScript-VariableFont_wght.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'BadScript';
+    src: url(/src/Font/BadScript-Regular.ttf)format('truetype');
 }
 
 .cor{
@@ -9,15 +53,14 @@
         rgb(40, 117, 180),
         rgb(27, 27, 167),
         rgb(155, 155, 197),
-        white
+        black
     );
     margin: -7px;
     opacity: 96%;
 }
 
 .container{    
-    width: 88%;
-    border-radius: 10px;
+    width: 88.7%;
     padding-left: 150px;
     font-style: italic;
     color: white;
@@ -52,26 +95,33 @@ li{
     text-shadow: 1px 1px 3px blue;
 }
 
+li :hover{
+    color: teal;
+}
+
 .main {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ephesis',cursive;
+    font-size: 30px;
     text-shadow: 10px 10px 10px white;
 }
 
 .time {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'ShadowsIntoLight',cursive;
+    font-size: 23px;
     font-weight: bold;
     margin: 30px auto auto;
     text-shadow: 4px 4px 4px white;
 }
 
 .greetings {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'BadScript';
+    font-size: 20px;
     text-shadow: 10px 10px 10px white;
 }
 
 .nome{
-    font-style: italic;
+    font-family: 'DancingScript',cursive;
     text-decoration: underline;
 }
 
@@ -80,6 +130,7 @@ li{
 }
 
 .pratice{
+    font-family: 'DancingScript',cursive;
     text-shadow: 10px 10px 10px white;
 }
 
@@ -91,6 +142,7 @@ input{
 }
 
 .numero{
+    font-style: italic;
     width: 80px;
     border-radius: 5px;
     margin-top: 15px;
@@ -105,8 +157,7 @@ input{
 }
 
 .rodape{
-    width: 88%;
-    border-radius: 10px;
+    width: 88.7%;
     padding-left: 150px;
     background-image: linear-gradient(
         to bottom right,
@@ -124,25 +175,42 @@ input{
     color: red;
 }
 
+.inst :hover{
+    color: darkred;
+}
+
 .linked{
     color: blue;
 }
 
+.linked:hover{
+    color: darkblue;
+}
+
+.gith :hover{
+    color: white;
+}
+
+
 .Home{
+    font-family: 'BadScript';
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
     margin: 60px auto 60px auto;
     padding: 50px;
     width: 1000px;
-    height: 500px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
-    background-image: url(/src/image/casa.jpg);
-    text-shadow: 1px 1px 1px black;
-    opacity: 80%;
-    color: white;
+    background-image: url(/src/image/natureza.jpg);
+    text-shadow: 50px 50px 50px blue;
+    opacity: 99%;
+    color: black;
 }
 
 .exames{
+    font-family: 'Ephesis';
+    font-size: 18.5px;
     margin: 60px auto 60px auto;
     padding: 50px;
     width: 900px;
@@ -169,3 +237,100 @@ input{
     margin-top: 20px;
     font-weight: bold;
 }
+
+.form{
+    margin: 60px auto 60px auto;
+    padding: 50px;
+    width: 900px;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    background-image: url(/src/image/form.jpg);
+    opacity: 54%;
+}
+
+.text{
+    font-style: italic;
+    width: 200px;
+}
+
+.resp{
+    font-weight: bold;
+    text-shadow: 1px 1px 4px black;
+}
+
+#coffee{
+    font-family: 'NeonBines',cursive;
+    color: darkblue;
+    background-image: linear-gradient(
+        to top right,
+        red,
+        orange,
+        rgb(207, 12, 120)
+    );
+    opacity: 85%;
+    margin-top: -21px;
+}
+.mid{
+    width: 100%;
+    height: 300px;
+    box-shadow: 5px 5px 5px black;
+}
+
+label{
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px white;
+    margin-right: 10px;
+}
+
+#InputCoffee{
+    background-image: linear-gradient(
+        to top left,
+        rgb(133, 133, 228),
+        rgb(182, 131, 173)
+    );
+    border-radius: 20px;
+    font-family: 'Fino';
+}
+
+.imgcoffee{
+    background-image: url(/src/image/coffeebar.jpg);
+}
+
+.maincoffee{
+    font-family: 'RockSalt-Regular',cursive;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgba(99, 29, 58, 0.671);
+    color: rgb(148, 60, 160);
+    font-style: italic;
+}
+
+.animatedm{
+    font-family: 'NeonBines';
+    color: darkblue;
+    transition: fontFamily 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out
+}
+
+.animatedm:hover{
+    font-family: 'RockSalt-Regular';
+    color: black;
+    text-shadow: 1px 1px 3px white;
+}
+
+.animatedf{
+    font-family: 'NeonBines';
+    color: darkblue;
+    transition: fontFamily 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.animatedf:hover{
+    font-family: 'Ephesis';
+    color: rgba(216, 37, 207, 0.781);
+    font-size: 30px;
+    text-shadow: 1px 1px 3px whitesmoke;
+}
+
+
