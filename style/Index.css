@@ -1,17 +1,10 @@
  html {
     background-image: url(/src/image/neon.jpg); /*imagem de fundo*/
 }
-
 @font-face {
-    font-family: 'NeonBines';
-    src: url(/src/Font/NeonBines.ttf) format('truetype');
+    font-family: 'AntonyHunter';
+    src: url(/src/Font/Anthony\ Hunter.ttf) format('truetype');
 }
-
-@font-face {    
-    font-family: 'RockSalt-Regular';
-    src: url(/src/Font/RockSalt-Regular.ttf) format('truetype');
-}
-
 @font-face {
     font-family: 'Fino';
     src: url(/src/Font/Fino.ttf) format('truetype');
@@ -47,6 +40,15 @@
     src: url(/src/Font/BadScript-Regular.ttf)format('truetype');
 }
 
+@font-face {
+    font-family: 'Zeyada';
+    src: url(/src/Font/Zeyada-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Charlotte';
+    src: url(/src/Font/Charlotte.otf)format('opentype');
+}
 .cor{
     background-image: linear-gradient(
         to top left,
@@ -102,7 +104,7 @@ li :hover{
 .main {
     text-align: center;
     font-family: 'Ephesis',cursive;
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 10px 10px 10px white;
 }
 
@@ -135,22 +137,27 @@ li :hover{
 }
 
 input{
-    width: 90px;
-    border-radius: 5px;
+    font-family: 'Caveat';
+    font-size: 20px;
+    width: 100px;
+    border-radius: 20px;
     margin-top: 15px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .numero{
     font-style: italic;
     width: 80px;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-top: 15px;
     margin-left: auto;
     margin-right: 10px;
 }
 
 .resultado{
+    font-family: 'DancingScript';
+    font-size: 25px;
     margin: 20px auto auto;
     font-style: italic;
     font-weight: bold;
@@ -210,15 +217,14 @@ input{
 
 .exames{
     font-family: 'Ephesis';
-    font-size: 18.5px;
+    font-size: 25px;
     margin: 60px auto 60px auto;
     padding: 50px;
     width: 900px;
-    height: 700px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
-    background-image: url(/src/image/exam.jpg);
-    opacity: 54%;
+    background-image: url(/src/image/hematologia.jpg);
+
 }
 
 .ref{
@@ -260,22 +266,19 @@ input{
 }
 
 #coffee{
-    font-family: 'NeonBines',cursive;
-    color: darkblue;
+    height: 100%;
+    font-family: 'Zeyada';
+    font-size: 23px;
     background-image: linear-gradient(
-        to top right,
-        red,
-        orange,
-        rgb(207, 12, 120)
+        to top left,
+        rgb(66,38,0),
+        silver,
+        rgb(255,253,208)
     );
-    opacity: 85%;
-    margin-top: -21px;
+    margin-top: -47px;
+    margin-bottom: 1px;
 }
-.mid{
-    width: 100%;
-    height: 300px;
-    box-shadow: 5px 5px 5px black;
-}
+
 
 label{
     font-style: italic;
@@ -285,52 +288,81 @@ label{
 }
 
 #InputCoffee{
+    font-size: 15px;
+    font-weight: bold;
     background-image: linear-gradient(
-        to top left,
-        rgb(133, 133, 228),
-        rgb(182, 131, 173)
+        to bottom right,
+        black,
+        rgb(220,220,220),
+        white
     );
-    border-radius: 20px;
-    font-family: 'Fino';
+    border-radius: 15px;
+    font-family: 'Caveat';
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
 
-.imgcoffee{
-    background-image: url(/src/image/coffeebar.jpg);
+#InputCoffee:hover{
+    transform: scale(1.2) ;
 }
 
 .maincoffee{
-    font-family: 'RockSalt-Regular',cursive;
+    font-family: 'AntonyHunter',cursive;
+    font-size: 30px;
     text-align: center;
-    text-shadow: 10px 10px 10px rgba(99, 29, 58, 0.671);
-    color: rgb(148, 60, 160);
+    text-shadow: 10px 10px 10px whitesmoke;
     font-style: italic;
 }
 
 .animatedm{
-    font-family: 'NeonBines';
-    color: darkblue;
+    font-family: 'Zeyada';
     transition: fontFamily 0.3s ease-in-out;
     transition: color 0.3s ease-in-out
 }
 
 .animatedm:hover{
-    font-family: 'RockSalt-Regular';
-    color: black;
+    font-family: 'Caveat';
+    color: darkblue;
     text-shadow: 1px 1px 3px white;
 }
 
 .animatedf{
-    font-family: 'NeonBines';
-    color: darkblue;
+    font-family: 'Zeyada';
     transition: fontFamily 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
 .animatedf:hover{
     font-family: 'Ephesis';
-    color: rgba(216, 37, 207, 0.781);
+    color: rgb(128,0,0);
     font-size: 30px;
     text-shadow: 1px 1px 3px whitesmoke;
 }
 
+.who{
+    background-color: rgb(220,182,138);
+    text-align: center;
+    place-items: center;
+}
 
+.row{
+    display: flex;
+}
+
+.col{
+    padding: 5px;
+    box-sizing: border-box;
+    border-right: 1px solid transparent;
+}
+
+.space{
+    margin-bottom: 100px;
+}
+
+.img{
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgb(220,182,138);
+    display: flex;
+    place-items: center;
+}

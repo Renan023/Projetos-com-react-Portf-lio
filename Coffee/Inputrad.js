@@ -11,13 +11,19 @@ function Inputradio(){
         if (select == 'masc') {
             setMsg(
                 <div>
-                    <p>Oi</p>
+                    <h3 className="animatedm" >
+                        Hey bro,
+                        come have a coffee with us and enjoy the day.The day starts with great coffee and good vibes
+                    </h3>
                 </div>
             )
         }else{
             setMsg(
                 <div>
-                    <p>tchau</p>
+                    <h3 className="animatedf" >
+                    Hi sis,
+                    Your smile with a good coffee makes this moment special
+                    </h3>
                 </div>
             )
         }
@@ -25,9 +31,9 @@ function Inputradio(){
     return(
         <div>
             <label><b>Gender </b></label>
-            <input type='radio' className="masc" id="masc" checked={select ==='masc'} onChange={handleOption}/>
+            <input type='radio' className="masc" id="masc" checked={select =='masc'} onChange={handleOption}/>
             <label>Male</label>
-            <input type='radio' className="fem" id="fem" checked={select === 'fem'} onChange={handleOption}/>
+            <input type='radio' className="fem" id="fem" onChange={handleOption}/>
             <label>Femme</label> 
             <input id='InputCoffee'type='Submit' value='Send' onClick={handleSubmit}/>
             <div>
