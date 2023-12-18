@@ -29,3 +29,6 @@ Alterada as fontes das páginas
 
 04/12/2023
 Animação introduzida quando seleciona o genero masculino ou feminino. ALterando a fonte e a cor da letra 
+
+17/12/2023
+A página da cafeteria foi totalmente reformulada e estilizada com inclusão de imagens 
