@@ -275,8 +275,6 @@ input{
         silver,
         rgb(255,253,208)
     );
-    margin-top: -47px;
-    margin-bottom: 1px;
 }
 
 
@@ -346,17 +344,13 @@ label{
 }
 
 .row{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
 }
 
 .col{
-    padding: 5px;
-    box-sizing: border-box;
+    padding: 20px;
     border-right: 1px solid transparent;
-}
-
-.space{
-    margin-bottom: 100px;
 }
 
 .img{
@@ -366,3 +360,13 @@ label{
     display: flex;
     place-items: center;
 }
+
+.Hc{
+    background-image: url(/src/image/back.jpg);
+    display: grid;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 10px white;
+    background-position: center;
+}
+

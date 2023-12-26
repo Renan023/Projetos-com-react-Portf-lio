@@ -1,3 +1,6 @@
+import Row from "./Row"
+import Row2 from "./Row2"
+
 function Harmonious(){
     function harmonious (){
         let har = document.getElementById('Hc')
@@ -12,7 +15,7 @@ function Harmonious(){
         }
 
     }return(
-            <div className="who">
+            <div className="Hc">
                 <div id="Hc">
                     <h2 >
                         Harmonious Coffee
@@ -21,6 +24,10 @@ function Harmonious(){
                         Where Aromas, Friendship and Sustainability Intertwine in an Immersive Experience
                     </h4>
                     <input type='Submit' id='InputCoffee'value='Portuguese' onClick={harmonious}/>
+                </div>
+                <div>
+                    <Row/>
+                    <Row2/>
                 </div>
           </div>
     )
