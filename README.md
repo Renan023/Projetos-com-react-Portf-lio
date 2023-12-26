@@ -32,3 +32,6 @@ Animação introduzida quando seleciona o genero masculino ou feminino. ALterand
 
 17/12/2023
 A página da cafeteria foi totalmente reformulada e estilizada com inclusão de imagens 
+
+25/12/23
+Foi inserido descrições da cafeteria, colocado o time, player de música, com novas imagens tanto ilustrativas como imagem de fundo 
