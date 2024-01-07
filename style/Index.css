@@ -1,6 +1,18 @@
- html {
+ html, body {
     background-image: url(/src/image/neon.jpg); /*imagem de fundo*/
+    background-size: cover;/*ajusta o tamanho da imagem */
+    background-position: center;/*centraliza a imagem */
+    background-repeat: no-repeat;/*evita a repetição*/
+    width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    html{
+        width: 1400px;
+        height: 100%;
+    }
+}
+
 @font-face {
     font-family: 'AntonyHunter';
     src: url(/src/Font/Anthony\ Hunter.ttf) format('truetype');
@@ -62,7 +74,6 @@
 }
 
 .container{    
-    width: 88.7%;
     padding-left: 150px;
     font-style: italic;
     color: white;
@@ -107,7 +118,7 @@ li :hover{
     font-size: 40px;
     text-shadow: 10px 10px 10px white;
 }
-
+    
 .time {
     font-family: 'ShadowsIntoLight',cursive;
     font-size: 23px;
@@ -132,13 +143,28 @@ li :hover{
 }
 
 .pratice{
-    font-family: 'DancingScript',cursive;
+    font-family: 'DancingScript';
     text-shadow: 10px 10px 10px white;
 }
 
-input{
+.input{
     font-family: 'Caveat';
     font-size: 20px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: translate(10px,10px);
+}
+
+.input:hover{
+    transform: translate(10px, 10px)
+}
+
+.inputname{
+    font-family: 'Caveat';
+    font-size: 17px;
     width: 100px;
     border-radius: 20px;
     margin-top: 15px;
@@ -164,7 +190,6 @@ input{
 }
 
 .rodape{
-    width: 88.7%;
     padding-left: 150px;
     background-image: linear-gradient(
         to bottom right,
@@ -175,7 +200,6 @@ input{
     cursor: pointer;
     align-items: center;
     display: flex;
-
 }
 
 .inst{
@@ -198,7 +222,6 @@ input{
     color: white;
 }
 
-
 .Home{
     font-family: 'BadScript';
     font-size: 18px;
@@ -210,6 +233,7 @@ input{
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
     background-image: url(/src/image/natureza.jpg);
+    background-position: center;
     text-shadow: 50px 50px 50px blue;
     opacity: 99%;
     color: black;
@@ -256,8 +280,10 @@ input{
 }
 
 .text{
+    text-align: center;
     font-style: italic;
-    width: 200px;
+    text-shadow: 10px 10px 10px whitesmoke;
+    align-items: center;
 }
 
 .resp{
@@ -277,7 +303,6 @@ input{
     );
 }
 
-
 label{
     font-style: italic;
     font-weight: bold;
@@ -294,6 +319,8 @@ label{
         rgb(220,220,220),
         white
     );
+    width: 100px;
+    margin-right: 50px;
     border-radius: 15px;
     font-family: 'Caveat';
     cursor: pointer;
@@ -312,7 +339,7 @@ label{
     font-style: italic;
 }
 
-.animatedm{
+.animatedm, .animatedf{
     font-family: 'Zeyada';
     transition: fontFamily 0.3s ease-in-out;
     transition: color 0.3s ease-in-out
@@ -322,12 +349,6 @@ label{
     font-family: 'Caveat';
     color: darkblue;
     text-shadow: 1px 1px 3px white;
-}
-
-.animatedf{
-    font-family: 'Zeyada';
-    transition: fontFamily 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out;
 }
 
 .animatedf:hover{
@@ -361,6 +382,14 @@ label{
     place-items: center;
 }
 
+#img{
+    transition: transform 0.3s ease-in-out;
+}
+
+#img:hover {
+    transform: scale(1.04);
+}
+
 .Hc{
     background-image: url(/src/image/back.jpg);
     display: grid;
@@ -370,3 +399,46 @@ label{
     background-position: center;
 }
 
+.audio{
+    opacity: 0.0;
+    transition: opacity 0.3s ease;
+}
+
+.audio:hover{
+    opacity: 1;
+}
+
+.imagem{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-image: linear-gradient(
+        to top left,
+        rgb(66,38,0),
+        silver,
+        rgb(255,253,208)
+    );
+}
+
+.carousel{
+    padding-left: 40px;
+    padding: auto auto 40px auto;
+    margin-bottom: 40px;
+    margin: auto ;
+    display: flex;
+}
+  
+.prev,.next {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.space{
+    padding: 20px;
+    background-image: linear-gradient(
+        to bottom left,
+        rgb(66,38,0),
+        silver,
+        rgb(255,253,208)
+    );
+}

@@ -26,9 +26,9 @@ function WWA(){
             <AutomaticImg/>
             <div className="who">
                 <div id='port'>
-                        <h4 >
+                        <h2>
                             Who we are
-                        </h4>
+                        </h2>
                         <h4 >
                             At Coffee Co., our mission goes beyond serving a simple coffee; we seek to provide an 
                             exceptional experience with each cup enjoyed, whether during a moment of study or 

@@ -14,7 +14,7 @@ function Carroussel({images}){
     return(
         <div className="carousel">
             <button className="prev" onClick={prevSlide}>&lt;</button>
-            <img className="carousel-img" src={images[currentIndex]}alt={`Image ${currentIndex+1}`}/>
+            <img className="carousel-img" src={images[currentIndex]}alt={`${currentIndex+1}`}/>
             <button className="next" onClick={nextSlide}>&gt;</button>
         </div>
     )

@@ -1,9 +1,9 @@
-import Text from "../Components/Text"
+import Drinks from "./Drinks"
 
 function Space(){
  return(
     <div className="space">
-      <Text text='Nossas Bebidas'/>
+      <Drinks/>
     </div>
  )   
 }

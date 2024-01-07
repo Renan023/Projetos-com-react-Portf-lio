@@ -6,6 +6,8 @@ import WWA from '../Coffee/Whoweare'
 import Harmonious from '../Coffee/HarmoniousCoffeee'
 import AudioPlayer from '../Coffee/Music'
 import Time from '../Components/Time'
+import Imagem from '../Coffee/Imagens'
+import Space from '../Coffee/Space'
 
 function CoffeeCo(){
 
@@ -19,6 +21,8 @@ function CoffeeCo(){
                 <Inputradio/>
                 <WWA/>
                 <Harmonious/>
+                <Space/>
+                <Imagem/>
             </div>
         </div>
     )
