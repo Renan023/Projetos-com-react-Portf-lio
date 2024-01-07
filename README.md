@@ -38,3 +38,6 @@ Foi inserido descrições da cafeteria, colocado o time, player de música, com 
 
 07/01/24
 A imagem foi colocada como dinamica e automática com uma transição quando se passa a imagem aumentando em 1.04 na parte quem somos 
+
+07/01/24
+Foi inserido mais  um carroussel de imagens para sobremesas
