@@ -35,3 +35,6 @@ A página da cafeteria foi totalmente reformulada e estilizada com inclusão de 
 
 25/12/23
 Foi inserido descrições da cafeteria, colocado o time, player de música, com novas imagens tanto ilustrativas como imagem de fundo 
+
+07/01/24
+A imagem foi colocada como dinamica e automática com uma transição quando se passa a imagem aumentando em 1.04 na parte quem somos 
