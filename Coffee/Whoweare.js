@@ -1,4 +1,5 @@
 import React from "react"
+import AutomaticImg from "../page/AutomaticImg"
 
 function WWA(){
 
@@ -22,15 +23,12 @@ function WWA(){
         }
     }return(
         <div className="img">
-                
-            <div id='img'>
-                <img src='/cafeteria.jpg' alt="Top"/>
-            </div>
+            <AutomaticImg/>
             <div className="who">
                 <div id='port'>
-                        <h2 >
+                        <h4 >
                             Who we are
-                        </h2>
+                        </h4>
                         <h4 >
                             At Coffee Co., our mission goes beyond serving a simple coffee; we seek to provide an 
                             exceptional experience with each cup enjoyed, whether during a moment of study or 
