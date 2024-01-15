@@ -1,15 +1,12 @@
  html, body {
-    background-image: url(/src/image/neon.jpg); /*imagem de fundo*/
     background-size: cover;/*ajusta o tamanho da imagem */
-    background-position: center;/*centraliza a imagem */
     background-repeat: no-repeat;/*evita a repetição*/
     width: 100%;
 }
 
 @media screen and (max-width: 768px) {
     html{
-        width: 1400px;
-        height: 100%;
+        width: 100%;
     }
 }
 
@@ -410,13 +407,14 @@ label{
 
 .imagem{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     background-image: linear-gradient(
         to top left,
         rgb(66,38,0),
         silver,
         rgb(255,253,208)
     );
+    padding-bottom: 50px;
 }
 
 .carousel{
@@ -442,3 +440,14 @@ label{
         rgb(255,253,208)
     );
 }
+
+.menu { 
+    background-image: linear-gradient(
+        to top left,
+        rgb(255,253,208),
+        rgb(66,38,00),
+        silver
+    );
+    padding-bottom: 60px;
+    display: flex;
+ }

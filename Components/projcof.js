@@ -6,7 +6,7 @@ function Projcof(){
                         aperfeiçoando este projeto `
     }return(
             <div>
-                <input type='Submit' value='Cafeteria' onClick={projcof}/>
+                <input type='Submit' value='Cafeteria'className="input" onClick={projcof}/>
             </div>
     )
 }

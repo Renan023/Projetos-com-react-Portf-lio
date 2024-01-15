@@ -10,11 +10,13 @@ import donuts from '../image/donuts.jpg'
 function Imagem(){
     const img = [match,Caramel,cappucino, coffee]
     const imgs =[cake, pie, donuts]
+    const snc =[]
 
     return(
         <div className='imagem'>
             <Carroussel images={img}/>
             <Carroussel images={imgs}/>
+            <Carroussel images={snc}/>
         </div>
     )
 }

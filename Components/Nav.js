@@ -22,7 +22,7 @@ function Nav(props){
                         <Link to="/form">Formulário</Link>
                     </li>
                     <li>
-                        <Link to="/neonwave">NeonWave Coffee</Link>
+                        <Link to="/coffeeco">Coffee Co</Link>
                     </li>
                 </ul>
                 </nav>

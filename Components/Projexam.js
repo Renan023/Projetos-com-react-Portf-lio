@@ -5,7 +5,7 @@ function Projexam (){
                         if-else`
     } return(
         <>
-            <input type='Submit' value='Hemograma' onClick={projexam}/>
+            <input type='Submit' value='Hemograma'className="input" onClick={projexam}/>
         </>
     )
 }

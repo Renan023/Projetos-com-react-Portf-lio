@@ -5,7 +5,7 @@ function Projcalc(){
         cálculos fatoriais, módulos, equação de segundo grau, regra de três`
     }return(
         <>
-            <input type='Submit' value='Calculadora' onClick={projcalc}/>
+            <input type='Submit' value='Calculadora'className="input" onClick={projcalc}/>
         </>
     )
 }
