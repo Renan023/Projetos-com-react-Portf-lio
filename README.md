@@ -41,3 +41,6 @@ A imagem foi colocada como dinamica e automática com uma transição quando se 
 
 07/01/24
 Foi inserido mais  um carroussel de imagens para sobremesas
+
+14/01/24
+Inserido a parte de cardápio , harmonização das cores de background
