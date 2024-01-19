@@ -1,5 +1,5 @@
 import React from "react"
-import AutomaticImg from "../page/AutomaticImg"
+import AutomaticImg from "./AutomaticImg"
 
 function WWA(){
 
