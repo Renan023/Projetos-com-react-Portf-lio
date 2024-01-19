@@ -44,3 +44,6 @@ Foi inserido mais  um carroussel de imagens para sobremesas
 
 14/01/24
 Inserido a parte de cardápio , harmonização das cores de background
+
+18/01/24
+Inseri a troca de mensagens no rodapé por período, e a troca dinamica na info. 
